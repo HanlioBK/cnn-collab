@@ -7,10 +7,15 @@
 目前這是「乾淨基準 v1」。
 """
 
+def broken(          # <- 故意壞掉
+    return 123
 
 def hello():
     return "這是乾淨的版本 v1"
 
 
+
+
 if __name__ == "__main__":
     print(hello())
+    printf(hi)
