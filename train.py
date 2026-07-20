@@ -61,8 +61,8 @@ def main():
     print(f"已啟用功能: {ACTIVE_FEATURES or '（無）'}")
 
     train_loader, test_loader = get_dataloaders(batch_size=64)
-    optimizer = optim.Adam(model.parameters(), lr=1e-3)
     model = MinimalCNN().to(device)
+    optimizer = optim.Adam(model.parameters(), lr=1e-3)
     criterion = nn.CrossEntropyLoss()
 
     num_epochs = 3
