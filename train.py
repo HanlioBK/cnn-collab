@@ -21,6 +21,7 @@ from utils import accuracy
 # =====================================================================
 ACTIVE_FEATURES = [
    "trainer_ext: add StepLR scheduler, EarlyStopping, and gradient clipping helpers",
+    "evaluate"
 ]
 # =====================================================================
 
