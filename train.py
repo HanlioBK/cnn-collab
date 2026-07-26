@@ -21,7 +21,8 @@ from utils import accuracy
 # =====================================================================
 ACTIVE_FEATURES = [
     # 各組在此加入自己的功能字串
-    "cnn_blocks"
+    "cnn_blocks",
+    "augment: add random rotation, horizontal flip, and gaussian noise"
 ]
 # =====================================================================
 
