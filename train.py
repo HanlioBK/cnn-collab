@@ -20,6 +20,8 @@ from utils import accuracy
 # 範例： "augment"  /  "deep_model"  /  "lr_schedule"  /  "eval_tools"
 # =====================================================================
 ACTIVE_FEATURES = [
+    # 各組在此加入自己的功能字串
+    "cnn_blocks",
     "augment: add random rotation, horizontal flip, and gaussian noise"
 ]
 # =====================================================================
