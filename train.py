@@ -1,8 +1,8 @@
 """訓練主程式。
-
+                                                                                 
 執行方式：
     python train.py
-"""
+"""                                                                                                                                                                                                                                      
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -22,6 +22,9 @@ from utils import accuracy
 ACTIVE_FEATURES = [
    "trainer_ext: add StepLR scheduler, EarlyStopping, and gradient clipping helpers",
     "evaluate"
+    # 各組在此加入自己的功能字串
+    "cnn_blocks",
+    "augment: add random rotation, horizontal flip, and gaussian noise"
 ]
 # =====================================================================
 
